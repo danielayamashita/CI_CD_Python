@@ -28,6 +28,7 @@ jobs:
         pip install -r requirements_dev.txt
         pip install -r requirements.txt
         pip install -e .
+        pip install --upgrade tox setuptools
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
