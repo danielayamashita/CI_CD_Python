@@ -38,5 +38,5 @@ jobs:
       run: 
         pytest
     - name: Test with tox
-        run:
-          tox
+      run:
+        tox
