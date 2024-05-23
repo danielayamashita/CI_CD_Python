@@ -1,4 +1,4 @@
-import t
+from square import square
 import pytest
 
 @pytest.mark.parametrize(
@@ -7,7 +7,7 @@ import pytest
          (3.,9.))
 )
 def test_square_param(input_n,expected):
-    assert t.square(input_n) == expected
+    assert square.square(input_n) == expected
 
 
 # def test_square():
